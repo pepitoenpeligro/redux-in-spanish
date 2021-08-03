@@ -89,7 +89,7 @@ function requestPosts(subreddit) {
 }
 ```
 
-Es importante que esté separado de `SELECT_SUBREDDIT` o `INVALIDATE_SUBREDDIT`. Aunque pueden ocurrir una tras otra, a medida que la aplicación se vuelve más compleja, es posible que desees obtener algunos datos independientemente de la acción del usuario (por ejemplo, para buscar de forma más rápida los subreddits más populares o actualizar los datos antiguos de vez en cuando). También es posible que desees buscar en respuesta a un cambio de ruta, por lo que no es aconsejable acoplar la busqueda a algún evento de interfaz de usuario desde el principio.
+Es importante que esté separado de `SELECT_SUBREDDIT` o `INVALIDATE_SUBREDDIT`. Aunque pueden ocurrir una tras otra, a medida que la aplicación se vuelve más compleja, es posible que desees obtener algunos datos independientemente de la acción del usuario (por ejemplo, para buscar de forma más rápida los subreddits más populares o actualizar los datos antiguos de vez en cuando). También es posible que desees buscar en respuesta a un cambio de ruta, por lo que no es aconsejable acoplar la búsqueda a algún evento de interfaz de usuario desde el principio.
 
 Finalmente, cuando llegue la solicitud de red, enviaremos `RECEIVE_POSTS`:
 

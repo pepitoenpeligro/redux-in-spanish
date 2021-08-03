@@ -158,7 +158,7 @@ Algunos detalles importantes aquí:
 
 > ##### Nota sobre entidades anidadas
 
-> En este ejemplo, almacenamos los elementos recibidos junto con la información de paginación. Sin embargo, este enfoque no funcionará bien si tienes entidades anidadas que se hacen referenica entre sí o si deja que el usuario edite elementos. Imagine que el usuario desea editar una publicación recuperada, pero esta publicación se duplica en varios lugares del árbol de estado. Esto sería muy difícil de implementar.
+> En este ejemplo, almacenamos los elementos recibidos junto con la información de paginación. Sin embargo, este enfoque no funcionará bien si tienes entidades anidadas que se hacen referencia entre sí o si deja que el usuario edite elementos. Imagine que el usuario desea editar una publicación recuperada, pero esta publicación se duplica en varios lugares del árbol de estado. Esto sería muy difícil de implementar.
 
 > Si tiene entidades anidadas o si deja que los usuarios editen entidades recibidas, debe mantenerlas separadas en el estado como si se tratara de una base de datos. En la información de paginación, sólo se hará referencia a ellos por sus ID. Esto le permite mantenerlos siempre actualizados. El [ejemplo del mundo real](../introduccion/ejemplos.md#real-world) muestra este enfoque, junto con [normalizr](https://github.com/paularmstrong/normalizr) para normalizar las respuestas anidadas de la API. Con este enfoque, su estado podría verse así:
 

@@ -93,7 +93,7 @@ El ciclo de duración de la data en cualquier aplicación Redux sigue estos 4 pa
 
 4. **El *store* en Redux guarda por completo el árbol de estado devuelto por el reductor raíz.**
   
-  ¡Este nuevo árbol es ahora el siguiente estado de tu aplicación! Cada *listener* registrado usando [`store.subscribe(listener)`](../api/Store.md#subscribe) será ahora invocado; los listeners podrán invocar [`store.getState()`](../api/Store.md#getState) para obtener el estado acutal.
+  ¡Este nuevo árbol es ahora el siguiente estado de tu aplicación! Cada *listener* registrado usando [`store.subscribe(listener)`](../api/Store.md#subscribe) será ahora invocado; los listeners podrán invocar [`store.getState()`](../api/Store.md#getState) para obtener el estado actual.
 
   Ahora, la interfaz de usuario puede actualizarse para reflejar el nuevo estado. Si utilizas herramientas como [React Redux](https://github.com/gaearon/react-redux), este es el momento donde invocas `component.setState(newState)`.
 

@@ -294,7 +294,7 @@ En este código, hay dos partes interesantes:
   return Object.assign({}, state, nextState)
   ```
 
-* Extrajimos `posts(state, action)` que gestiona el estado de una lista de articíulos específicos. Esto es sólo [composición del reductor](../basico/reducers.md#separando-reducers)! Es nuestra elección cómo dividir el reductor en reductores más pequeños, y en este caso, estamos delegando elementos de actualización dentro de un objeto a un reductor `posts`. El [ejemplo del mundo real](../introduccion/ejemplos.md#real-world) va aún más allá, mostrando cómo crear una factoría de reductores para reductores de paginación parametrizados.
+* Extrajimos `posts(state, action)` que gestiona el estado de una lista de artículos específicos. Esto es sólo [composición del reductor](../basico/reducers.md#separando-reducers)! Es nuestra elección cómo dividir el reductor en reductores más pequeños, y en este caso, estamos delegando elementos de actualización dentro de un objeto a un reductor `posts`. El [ejemplo del mundo real](../introduccion/ejemplos.md#real-world) va aún más allá, mostrando cómo crear una factoría de reductores para reductores de paginación parametrizados.
 
 Recuerde que los reductores son sólo funciones, por lo que puede utilizar la composición funcional y funciones de orden superior de acuerdo a su conveniencia.
 

@@ -17,7 +17,7 @@ const ADD_TODO = 'ADD_TODO'
 }
 ```
 
-Las acciones son objetos planos de JavaScript. Una acción debe tener una propiedad `type` que indica el tipo de acción a realizar. Los tipos normalmente son definidos como strings constantes. Una vez que tu aplicación sea suficientemente grande, quizas quieras moverlos a un módulo separado.
+Las acciones son objetos planos de JavaScript. Una acción debe tener una propiedad `type` que indica el tipo de acción a realizar. Los tipos normalmente son definidos como strings constantes. Una vez que tu aplicación sea suficientemente grande, quizás quieras moverlos a un módulo separado.
 
 ```js
 import { ADD_TODO, REMOVE_TODO } from '../actionTypes'

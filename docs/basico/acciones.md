@@ -97,7 +97,7 @@ boundAddTodo(text)
 boundCompleteTodo(index)
 ```
 
-La función `dispatch()` puede ser accedida directamente desde el store como [`store.dispatch()`](../api/Store.md#dispatch), pero comunmente vas a querer usar utilidades como `connect()` de [react-redux](http://github.com/gaearon/react-redux). Puedes usar [`bindActionCreators()`](../api/bind-action-creators.md) para automaticamente conectar muchos creadores de acciones a `dispatch()`.
+La función `dispatch()` puede ser accedida directamente desde el store como [`store.dispatch()`](../api/Store.md#dispatch), pero comunmente vas a querer usar utilidades como `connect()` de [react-redux](http://github.com/gaearon/react-redux). Puedes usar [`bindActionCreators()`](../api/bind-action-creators.md) para automáticamente conectar muchos creadores de acciones a `dispatch()`.
 
 Los creadores de acciones pueden además ser asíncronos y tener efectos secundarios. Puedes leer más sobre las [acciones asíncronas](../avanzado/acciones-asíncronas.md) en el [tutorial avanzado](../avanzado/README.md) para aprender como manejar respuestas AJAX y combinar creadores de acciones en un flujo de control asíncrono. No saltes ahora mismo a las acciones asíncronas hasta que completes el tutorial básico, ya que deben adquirir otros conceptos importantes que son prerequisitos para el tutorial avanzado y las acciones asíncronas.
 

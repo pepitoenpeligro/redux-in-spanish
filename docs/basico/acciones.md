@@ -2,7 +2,7 @@
 
 Primero, vamos a definir algunas acciones.
 
-Las **acciones** son un bloque de información que envía datos desde tu aplicación a tu store. Son la *única* fuente de información para el store. Las envias al store usando [`store.dispatch()`](../api/Store.md#dispatch).
+Las **acciones** son un bloque de información que envía datos desde tu aplicación a tu store. Son la *única* fuente de información para el store. Las envías al store usando [`store.dispatch()`](../api/Store.md#dispatch).
 
 Aquí hay unas acciones de ejemplo que representan agregar nuevas tareas pendientes:
 

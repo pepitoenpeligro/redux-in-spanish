@@ -30,7 +30,7 @@ Puedes utilizar un campo dedicado de tipo `status` en tus acciones:
 { type: 'FETCH_POSTS', status: 'success', response: { ... } }
 ```
 
-O puedes definir diference tipos para cada uno:
+O puedes definir diferentes tipos para cada uno:
 
 ```js
 { type: 'FETCH_POSTS_REQUEST' }

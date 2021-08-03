@@ -83,7 +83,7 @@ dispatch(addTodo(text))
 dispatch(completeTodo(index))
 ```
 
-Alternativamente, puedes crear un **creador de acciones conectados** que despache automaticamente:
+Alternativamente, puedes crear un **creador de acciones conectados** que despache automáticamente:
 
 ```js
 const boundAddTodo = (text) => dispatch(addTodo(text))
